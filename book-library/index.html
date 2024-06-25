@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library App</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <header>
+    <h1>Kütüphanem</h1>
+    <button id="new-book-btn">Yeni Kitap Ekle</button>
+  </header>
+  <div id="book-form-container" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <form id="book-form">
+        <h2>Yeni kitap Ekle</h2>
+        <label for="title">Başlık:</label>
+        <input type="text" id="title" name="title" required>
+        <label for="author">Yazar:</label>
+        <input type="text" id="author" name="author" required>
+        <label for="pages">Sayfa:</label>
+        <input type="number" id="pages" name="pages" required>
+        <label for="imageUrl">Resim Url</label>
+        <input type="text" id="imageUrl" name="imageUrl" >
+        <div>
+          <label for="read">Okudum:</label>
+          <input type="checkbox" id="read" name="read">
+        </div>
+        
+        <button type="submit">Ekle</button>
+      </form>
+    </div>
+  </div>
+  <div id="library"></div>
+  <script src="script.js"></script>
+</body>
+</html>
