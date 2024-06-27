@@ -15,5 +15,9 @@ live preview = https://1kivanc.github.io/The_Odin_Project/book-library/index.htm
 
 ![Ekran görüntüsü 2024-06-25 205533](https://github.com/1kivanc/The_Odin_Project/assets/87445533/9585539c-f561-4f8c-8a1e-a9e6a267ef1e)
 
+### Tic Tac Toe
+live preview = https://1kivanc.github.io/The_Odin_Project/tic-tac-toe/index.html
+
+![image](https://github.com/1kivanc/The_Odin_Project/assets/87445533/1129375b-556c-4ade-8080-34986fd0a693)
 
 
