@@ -20,4 +20,11 @@ live preview = https://1kivanc.github.io/The_Odin_Project/tic-tac-toe/index.html
 
 ![image](https://github.com/1kivanc/The_Odin_Project/assets/87445533/1129375b-556c-4ade-8080-34986fd0a693)
 
+### Restaurant Pages
+Kullanılan Teknolojiler
+HTML5, CSS3
+JavaScript (ES6+)
+Webpack
+![image](https://github.com/1kivanc/The_Odin_Project/assets/87445533/08b8c7af-404f-4e57-b22f-d61c55321460)
+
 
