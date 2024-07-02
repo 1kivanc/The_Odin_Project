@@ -27,4 +27,8 @@ JavaScript (ES6+)
 Webpack
 ![image](https://github.com/1kivanc/The_Odin_Project/assets/87445533/08b8c7af-404f-4e57-b22f-d61c55321460)
 
+### Weather App
+live preview = https://1kivanc.github.io/The_Odin_Project/weather-app/index.html
+
+![image](https://github.com/1kivanc/The_Odin_Project/assets/87445533/34345c91-8d39-452a-8f56-38599238cd65)
 
