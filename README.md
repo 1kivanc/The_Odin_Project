@@ -32,3 +32,13 @@ live preview = https://1kivanc.github.io/The_Odin_Project/weather-app/index.html
 
 ![image](https://github.com/1kivanc/The_Odin_Project/assets/87445533/34345c91-8d39-452a-8f56-38599238cd65)
 
+### Todo List
+
+webpack
+LocalStorage was used for data persistence
+
+npm install webpack webpack-cli --save-dev
+npm install date-fns
+npm run build
+![gif](https://github.com/1kivanc/The_Odin_Project/assets/87445533/672b1eb4-0a91-4cdf-8f9f-978dd1fe9148)
+
