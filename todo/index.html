@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Todo App</h1>
+            <button id="add-project-btn">Proje Ekle</button>
+        </header>
+        <main>
+            <div id="projects-list"></div>
+            <div id="todos-list"></div>
+        
+            <button id="add-todo-btn-view-todos" style="display: none;">Todo<br>ekle</button>
+            <form id="add-todo-form" style="display:none;">
+                <h3>Todo Ekle</h3>
+                <label>
+                    Başlık:
+                    <input type="text" id="todo-title">
+                </label>
+                <label>
+                    Açıklama:
+                    <textarea id="todo-description"></textarea>
+                </label>
+                <label>
+                    Bitiş tarihi:
+                    <input type="date" id="todo-dueDate">
+                </label>
+                <label>
+                    Öncelik:
+                    <select id="todo-priority">
+                        <option value="Yüksek">Yüksek</option>
+                        <option value="Orta">Orta</option>
+                        <option value="Düşük">Düşük</option>
+                    </select>
+                </label>
+                <button type="button" id="add-todo-btn">Todo Ekle</button>
+                <button type="button" id="close-todo-btn">Kapat</button>
+            </form>
+        </main>
+    </div>
+    <script src="dist/main.js"></script>
+</body>
+</html>
