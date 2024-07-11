@@ -42,3 +42,8 @@ npm install date-fns
 npm run build
 ![gif](https://github.com/1kivanc/The_Odin_Project/assets/87445533/672b1eb4-0a91-4cdf-8f9f-978dd1fe9148)
 
+### Testing Practice
+
+![image](https://github.com/1kivanc/The_Odin_Project/assets/87445533/be85bfb9-f3ee-4962-9911-567b54e718b7)
+
+
