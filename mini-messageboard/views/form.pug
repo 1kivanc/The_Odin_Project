@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1 Yeni Mesaj
+
+  if error
+    p.error= error
+
+  form(method="POST" action="/new")
+    div
+      label(for="messageUser") Adınız:
+      input(type="text" id="messageUser" name="messageUser" value=messageUser || '' required) 
+    div
+      label(for="messageText") Mesajınız:
+      textarea(id="messageText" name="messageText" required)= messageText || ''
+    button(type="submit") Gönder

@@ -1,0 +1,14 @@
+extends layout 
+
+block content
+  h1= title
+
+  ul#messages-list
+    each message in messages
+      li
+        strong= message.user
+        | - 
+        span= message.text
+        |  (added on #{message.added.toLocaleDateString('tr-TR')}) // Turkish locale for date
+
+  a(href="/new") Yeni Mesaj Ekle
